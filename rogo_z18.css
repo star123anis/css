@@ -1,0 +1,40 @@
+#jeden {
+	width: 1004 px;
+	background-color: silver;	
+     }
+#dwa {
+	width: 1104 px;
+	background-color: red;
+	 }
+#trzy {
+	width: 1204 px;
+	background-color: maroon;
+	 }
+#zd_jeden {
+	color: maroon;
+	font-size: 1.5cm;
+	 }
+#zd_dwa {
+	
+	font-size: 1.1cm;
+	 }
+#wyl_jeden {
+	color: purple;
+	font-size: 0.7mm;
+	 }
+#zd_trzy {
+	color: silver;
+	font-size: 1cm;
+	}
+#wyl_dwa {
+	color: purple;
+	font-size: 8mm;
+	}
+#zd_cztery {
+	color: silver;
+	font-size: 9mm;
+	}
+#wyl_trzy {
+	color: red;
+	font-size: 7mm;
+	}
