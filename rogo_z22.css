@@ -1,0 +1,19 @@
+p
+{ 
+color: red;
+font-size: 22pt;
+}
+  
+p#gruby_rogowska 
+{
+color: green;
+font-size: 17pt;
+font-weight: bold;
+}
+
+#dlawszystkich_rogowska
+{
+color: yellow;
+font-size: 10pt;
+font-family: arial;
+}
