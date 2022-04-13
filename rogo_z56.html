@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<ol> 
+<li>
+ składnia teoretyczna definiowania klasy -> obramowania (może być tabele 
+jednokomórkowa)<br>
+Odp:
+<table border=1px>
+<tr>
+<td>
+<p> selektor.klasa { cecha: wartość } </p> 
+</td>
+</tr>
+</table>
+</li>
+<li>
+Podaj opis dla Klasa "cecha" oraz "wartość"<br>
+<p>Odp: Klasa to wartość atrybutu class="..." nadanego selektorowi z poziomu języka (X)HTML. <br>
+"cecha" oraz "wartość" określają atrybuty elementu nadane poprzez style.</p>
+</li>
+<li>
+Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem)
+<p>Odp:<br>
+p -> akapit<br>
+h1 -> tytuł<br>
+td -> komórka tabeli i inne<br></p>
+<li>
+Podaj uwagi na temat nazwy klas: (wykonaj cały tekst, uzupełnij miejsca kropek, 
+uzupełnienia wykonaj pismem pogrubionym, pogrubienia wykonaj z użyciem CSS)<br>
+Nazwą może być ,dowolny pojedyńczy wyraz, który nie może zawierać: <br>
+a) Spacji, kropki, przecinka, dwukropka, pytajnika,<br>
+h)Nawiasów, znaku równości, plusa itp. <br><br>
+Może zawierać:<br><br>
+a)Litery (A-Z, a-z), cyfry (0-9) <br>
+d)Myślniki ("-") i podkreślniki ("_").*Lepiej nie używać polskich liter* <br><br><br>
+Nazwa nie może się zaczynac od cyfr ani myślników. <br>
+Jeśli koniecznie chcemy użyć "zakazanych" znaków, należy w deklaracji klasy <br>
+ poprzedzić je odwróconym ukośnikiem "\", np. reguła: selektor.B\&W\? { cecha: <br>
+ wartość } odpowiada klasie: class="B&W?". <br><br>
+</li>
+<li>
+Jakie jest zastosowanie klas?
+<p>Odp: Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się <br>
+elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się <br>
+selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co <br>
+wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie.</p>
+</li>
+<li>
+Kiedy ma zastosowanie lista klas?
+<p>Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas</p>
+</li>
+<li>
+składnia teoretyczna listy klasy -> obramowania (może być tabele jednokomórkowa), oraz <br>
+uwagi.<br>
+Odp:
+<table border=1px>
+<tr>
+<td>
+&lt;selektor class="klasa1 klasa2 klasa3..."&gt;...&lt;/selektor&gt;
+</td>
+</tr>
+</table>
+</li>
+<li>
+Czym są podzbiory klas. Składnia teoretyczna listy klasy -> obramowania (może być tabele <br>
+jednokomórkowa).<br>
+<p>Odp: Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć <br>
+jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie. Na <br>
+przykład po wpisaniu:</p>
+<table border=1px>
+<tr>
+<td>
+&lt;selektor class="klasa1 klasa2 klasa3..."&gt;...&lt;/selektor&gt;
+</td>
+</tr>
+</table>
+</li>
+<li>
+Co jest sygnałem (przesłanką), że należy zastosować klasy?
+<p>Odp: Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się <br>
+elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się <br>
+selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co <br>
+wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie. </p>
+</li>
+<li>
+Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?
+<p>Odp: Dobrym pomysłem jest również wstawianie komentarza przed każdą deklaracją klasy <br>
+ w arkuszu (znaki: /* ... */), w którym opisuje się jej przeznaczenie. Po jakimś czasie w <br> 
+Twoim arkuszu stylów może znaleźć się tyle klas, że zapomnisz, do jakich elementów <br>
+się one odnosiły. Wtedy właśnie bardzo przydatny może się okazać wpisany wcześniej <br>
+komentarz.</p>
+</li>
+<li>
+Jaki jest cel stosowania komentarzy podczas definiowania klas?
+<p>Odp: Dobrym pomysłem jest również wstawianie komentarza przed każdą deklaracją klasy <br>
+w arkuszu (znaki: /* ... */), w którym opisuje się jej przeznaczenie. Po jakimś czasie w <br> 
+Twoim arkuszu stylów może znaleźć się tyle klas, że zapomnisz, do jakich elementów <br>
+się one odnosiły. Wtedy właśnie bardzo przydatny może się okazać wpisany wcześniej <br>
+ komentarz.</p>
+</li>
+<li>
+Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).
+<p>Odp: <span style="font-weight: 600;">Przykład definiowania i wywołania klasy:  </span> <br>
+<span style="text-decoration: underline;">definicja arkusza styli:</span> <br> 
+p.przyklad_klasa { color: red } <br>
+<span style="text-decoration: underline;">wywołanie:</span> <br/>
+&lt;p class="przyklad_klasa"&gt;To jest akapit.&lt;/p&gt; </p>
+</li>
+<li>
+Omów klasa donosząca się tylko do jednego selektora wraz z przykładem.
+<p>Odp: Podobnie jak w przypadku identyfikatora, tak zdefiniowana klasa może zostać użyta tylko w <br>
+tym selektorze, do którego została przypisana, np.:</p> 
+<p style="text-decoration: underline;">definicja arkusza styli:</p>
+<p>
+ p.moja{ <br/>
+color:green;<br>
+font-size:14pt;<br>
+}
+</p>
+<p> <span style="text-decoration: underline;"> wywołanie: </span><br>
+Powinna zostać wywołana w znaczniku &lt;p&gt; &lt;/p&gt; w następujący sposób:<br><br>
+&lt;p class=”moja”&gt;Treść akapitu&lt;/p&gt; </p><br>
+</li>
+<li>
+Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy <br>
+można nie stosować tego znaku. Podaj przykład (definicja, wywołanie).
+<p>W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w <br/>
+stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje <br/> 
+się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów, <br/>
+którym zostanie ona nadana, bez względu na typ znacznika czyli użycie jest możliwe w <br/>
+różnych znacznikach</p>
+
+<p> Przykład:<br>
+definicja arkusza styli</p>
+<p> *.przyklad_uniwersalna { color: red } <br><br>
+Każdy element, któremu nadamy klasę<br>
+przyklad_uniwersalna, będzie miał kolor czerwony. <br>
+W tym przypadku gwiazdkę (*) w regule stylu można pominąć:<br>
+.przyklad_uniwersalna { font-size:12 pt; color: red } </p>
+</li>
+</ol>
+</body>
+</html>
