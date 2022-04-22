@@ -1,0 +1,26 @@
+div#raz
+{
+color: red;
+font-size: 2cm;
+}
+A 
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link 
+{
+color: blue;
+}
+A:visited 
+{
+color: green;
+}
+A:hover 
+{
+color: red;
+text-decoration: underline;
+}
+/*text-decoration : none - oznacza , że pod wyświetlanym linkiem nie ma podkreślenia
+   text-decoration : underline - oznacza , że po przesunięciu kursora na link zostanie on podkreślony
+   Anna Rogowska*/

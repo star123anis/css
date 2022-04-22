@@ -1,0 +1,33 @@
+
+div#blok_1_rogowska
+{
+width: 600px;
+background-color: green;
+}
+div#blok_2_rogowska
+{
+width: 600px;
+background-color: green;
+}
+div#blok_3_rogowska
+{
+width: 600px;
+background-color: green;
+}
+div#blok_1_rogowska:hover
+{
+color: orange;
+font-size: 18mm;
+}
+div#blok_2_rogowska:hover
+{
+color: blue;
+font-size: 18mm;
+}
+div#blok_3_rogowska:hover
+{
+color: turquoise;
+font-size: 18mm;
+}
+/*hover - oznacza zmiany po przesunięciu kursora na link
+Anna Rogowska*/
