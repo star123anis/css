@@ -1,0 +1,53 @@
+p#a
+{
+font-size: 19pt;
+color: turquoise;
+}
+
+p#a:first-letter
+{
+font-size: 113pt;
+color: orange;
+}
+
+p#b
+{
+font-size: 21pt;
+color: turquoise;
+}
+
+p#b:first-letter
+{
+font-size: 113pt;
+color: blue;
+}
+
+p#c
+{
+color: blue;
+font-size: 0.5cm;
+}
+
+p#c:first-line
+{
+color:red;
+font-size: 3mm;
+}
+
+p#c:first-letter
+{
+font-size: 1.5cm;
+}
+
+h1
+{
+font-size: 1cm;
+color: purple;
+}
+
+h1:first-letter
+{
+font-size: 3cm;
+color: silver;
+}
+
