@@ -1,0 +1,113 @@
+<html lang="pl">
+ <head> 
+  <meta charset="UTF-8">
+</head>
+<body>	
+<table border="1">
+	<tr>
+		<td>
+		<h1>Kolor tła</h1>
+		</td>
+		<td>
+			Dzięki temu poleceniu można ustalić kolor tła dla danego elementu.<br>
+			Składnia reguły:<br><br>
+			selektor {background-color: kolor;}<br><br>
+			p#first {
+				background-color: red;
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Tło Obrazkowe</h1>
+		</td>
+		<td>
+			Dzięki temu poleceniu można ustalić tło obrazkowe dla danego elementu.<br>
+			Składnia reguły:<br><br>
+			selektor {background-image: url(adres);}<br><br>
+			p#first {
+			background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Powtarzanie tła</h1>
+		</td>
+		<td>
+			Dzięki temu poleceniu można ustalić jeden z czterech sposobów powtarzania się obrazka jako tła.<br>
+			Składnia reguły:<br><br>
+			selektor {background-repeat: powtarzanie;}<br><br>
+			p#first {
+				background-repeat: repeat;
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Pozycja tła</h1>
+		</td>
+		<td>
+			Dzięki temu poleceniu można ustalić pozycję obrazka w ramach tła. Niemożliwe to jest przy wartości atrybutu powtarzania: repeat.<br>
+			Składnia reguły:<br><br>
+			selektor {background-position: pozycja;}<br><br>
+			p#first {
+				background-position: center;
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Zaczepienie tła</h1>
+		</td>
+		<td>
+			Poleceniem tym można sprawić, że tło będzie nieruchome w czasie przewijania zawartości strony.<br>
+			Składnia reguły:<br><br>
+			selektor {background-attachment: zaczepienie;}<br><br>
+			p#first {
+				background-attachment: scroll;
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Łączenie atrybutów tła</h1>
+		</td>
+		<td>
+			Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+			Składnia reguły:<br><br>
+			selektor {background: wartości atrybutów;}<br><br>
+			p#first {
+				color: #800000; background: #00ff00	url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll center
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Gradient liniowy</h1>
+		</td>
+		<td>
+			<u><b>Gradient</b></u> to wypełnienie tłem płynnym przejściu kilku kolorów<br>
+			Składnia reguły:<br><br>
+			selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }<br><br>
+			p#first {
+			background: linear-gradient(to bottom, black 0%, white 100%)
+			}
+		</td>
+	</tr>
+		<tr>
+		<td>
+		<h1>Gradient promienisty</h1>
+		</td>
+		<td>
+			<u><b>Gradient promienisty</b></u> to tło o płynnym przejściem kilku kolorów, wywołując efekt trójwymiarowej kuli lub oświetlenia latarki<br>
+			Składnia reguły:<br><br>
+			selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...) }<br><br>
+			p#first {
+				repeating-radial-gradient(white 33%, black 66%)
+			}
+		</td>
+	</tr>
+</table>
+</body>
+</html>
